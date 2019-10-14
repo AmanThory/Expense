@@ -1,0 +1,66 @@
+.navbar{
+    border-bottom: #008ed6 3px solid;
+}
+
+.btn-download{
+    border-radius : 5px;
+    border: 2px solid #008ed6;
+    padding: 4px 16px 4px 16px; 
+  }
+  
+  .btn-download:hover{
+    background-color: #008ed6;
+    color: #fff;
+    border: 2px solid #008ed6;
+  }
+
+#home-section{
+    background-color: #f2f2f2;
+    min-height: 91vh;
+    background-size:cover; 
+    background-attachment:scroll; 
+}
+
+.home-inner{
+    padding-top: 100px;
+}
+
+.contact-card{
+    border: 0rem solid #fff !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.about-us-heading{
+    animation: slide-left 1s ease-out;
+}
+
+.about-us{
+    animation: slide-right 1s ease-out;
+}
+
+@keyframes slide-left {
+    0% { opacity: 0; transform: translateX(100%); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes slide-right {
+    0% { opacity: 0; transform: translateY(100%); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}

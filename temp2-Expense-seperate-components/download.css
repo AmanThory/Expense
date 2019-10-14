@@ -1,0 +1,72 @@
+.navbar{
+    border-bottom: #008ed6 3px solid;
+}
+
+.btn-download{
+    border-radius : 5px;
+    border: 2px solid #008ed6;
+    padding: 4px 16px 4px 16px; 
+  }
+  
+  .btn-download:hover{
+    background-color: #008ed6;
+    color: #fff;
+    border: 2px solid #008ed6;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  .btn-shadow{
+    background-color: #fff;
+    color: #008ed6;
+  }
+
+  .btn-shadow:hover{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+#home-section{
+    background-color: #fff;
+    min-height: 700px;
+    background-size:cover; 
+    background-attachment:scroll; 
+}
+
+.home-inner{
+    padding-top: 100px;
+}
+
+.contact-card{
+    border: 0rem solid #fff !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.swiftrepay{
+    padding-top: 100px;
+}
+
+#feature h1{
+    color: #008ed6;
+    font-weight: 400;
+}
+.feature-content{
+    background-color:rgb(0,142,214,0.5) ;
+    border-radius: 4px;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
